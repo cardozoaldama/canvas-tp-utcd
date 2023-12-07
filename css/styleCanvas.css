@@ -70,3 +70,10 @@ body {
     padding: 10px;
     width: 100%;
 }
+
+/* Title Canvas Text with Unordered Lists: */
+/* Every Unordered List without list-style-type. */
+.title-canvas__text ul li {
+    /* Drop away those discs. */
+    list-style-type: none;
+}
