@@ -41,6 +41,12 @@ body {
     text-align: justify;
 }
 
+/* Articles for each section, Head and Footer */
+.canvas-container article {
+    border: 2px solid #000;
+    padding: 12px;
+}
+
 /* Head Section of The Lean Canvas */
 .head-section {
     /* align-items: center; */
