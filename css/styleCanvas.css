@@ -1,7 +1,15 @@
 /* Styles for Lean Canvas HTML file */
 
+/* Basic Reset */
 *, *::before, *::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+/* Body */
+body {
+    /* Using fonts from Google Fonts: */
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 18px;
 }
