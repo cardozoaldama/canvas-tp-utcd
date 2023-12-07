@@ -7,6 +7,13 @@
     padding: 0;
 }
 
+/* The main ROOT */
+:root {
+    /* This is how you declare variables: */
+    --main-background: #f1f1f1;
+    --header-background: rgb(73, 73, 73);
+}
+
 /* Body */
 body {
     /* Using fonts from Google Fonts: */
@@ -16,12 +23,14 @@ body {
 
 /* The main container: */
 .main-container {
-    background-color: #f1f1f1;
+    /* Using a variable: */
+    background-color: var(--main-background);
 }
 
 /* The header: */
 .header {
-    background-color: rgb(73, 73, 73);
+    /* Using variables: */
+    background-color: var(--header-background);
     color: #f1f1f1;
     padding: 30px;
 }
