@@ -52,7 +52,7 @@ body {
     /* align-items: center; */
     display: flex;
     /* Space between flex-items with GAP. */
-    gap: 20px;
+    /* gap: 20px; */
     /* justify-content: center; */
 }
 
