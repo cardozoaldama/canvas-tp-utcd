@@ -1,1 +1,32 @@
 /* Styles only for visualProposition.html */
+
+/* BASIC RESET */
+/* Universal selector with pseudo-elements */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* The visual proposition container */
+.visual-container {
+    align-items: center;
+    /* Using a background image: */
+    background-image: url('../img/visual-connector.png');
+    /* Using background-position for the image: */
+    background-position: 30%;
+    /* If for some reason, using a solid background-color. */
+    background-color: #f1f1f1;
+    border: 2px solid #000;
+    display: flex;
+    /* The size of our box would be 500x500 */
+    height: 500px;
+    justify-content: center;
+    width: 500px;
+}
+
+/* Icon in the center. */
+.visual-icon {
+    background-color: #f1f1f1;
+    font-size: 5em;
+}
