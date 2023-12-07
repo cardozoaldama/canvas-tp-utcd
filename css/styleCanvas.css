@@ -43,9 +43,16 @@ body {
 
 /* Head Section of The Lean Canvas */
 .head-section {
-    align-items: center;
+    /* align-items: center; */
     display: flex;
     /* Space between flex-items with GAP. */
     gap: 20px;
-    justify-content: center;
+    /* justify-content: center; */
+}
+
+/* Title Canvas */
+.title-canvas {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
 }
