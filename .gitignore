@@ -210,3 +210,6 @@ FakesAssemblies/
 
 # Built Visual Studio Code Extensions
 *.vsix
+
+# Ignoring some files
+*.svg
