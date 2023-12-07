@@ -77,3 +77,15 @@ body {
     /* Drop away those discs. */
     list-style-type: none;
 }
+
+/* FOOTER SECTION */
+/* Footer section main flex container */
+.footer-section {
+    display: flex;
+}
+
+/* For each individual articles in .footer-section. */
+.footer-section article {
+    /* Flex-basis setting the width of our flex-items. */
+    flex-basis: 50%;
+}
