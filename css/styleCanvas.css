@@ -43,7 +43,10 @@ body {
 
 /* Articles for each section, Head and Footer */
 .canvas-container article {
+    align-items: center;
     border: 2px solid #000;
+    display: flex;
+    flex-direction: column;
     padding: 12px;
 }
 
@@ -59,6 +62,11 @@ body {
 /* Title Canvas */
 .title-canvas {
     align-items: center;
+    /* Using border-bottom with variables */
+    border-bottom: 2px solid var(--header-background);
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
+    padding: 10px;
+    width: 100%;
 }
