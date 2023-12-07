@@ -9,12 +9,9 @@
 }
 
 /* The visual proposition container */
-.visual-container {
+/* And the customer container */
+.visual-container, .customer-container {
     align-items: center;
-    /* Using a background image: */
-    background-image: url('../img/visual-connector.png');
-    /* Using background-position for the image: */
-    background-position: 30%;
     /* If for some reason, using a solid background-color. */
     background-color: #f1f1f1;
     border: 2px solid #000;
@@ -25,8 +22,24 @@
     width: 500px;
 }
 
+/* Visual Proposition and Customer has different background-image: */
+.visual-container {
+    /* Using a background image: */
+    background-image: url('../img/visual-connector.png');
+}
+
+.customer-container {
+    /* Another background image for customer container. */
+    background-image: url('../img/customer-connector.png');
+}
+
+/* They probably have the same background-position: */
+.visual-container, .customer-container {
+    background-position: 55%;
+}
+
 /* Icon in the center. */
-.visual-icon {
+.visual-icon, .customer-icon {
     background-color: #f1f1f1;
     font-size: 5em;
 }
