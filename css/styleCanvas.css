@@ -13,3 +13,15 @@ body {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 18px;
 }
+
+/* The main container: */
+.main-container {
+    background-color: #f1f1f1;
+}
+
+/* The header: */
+.header {
+    background-color: rgb(73, 73, 73);
+    color: #f1f1f1;
+    padding: 30px;
+}
