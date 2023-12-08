@@ -53,6 +53,7 @@
 .visual-container > div, .customer-container > div {
     background-color: #f1f1f1;
     font-size: 5em;
+    text-align: center;
 }
 
 /* Visual Container: Icons */
@@ -83,7 +84,7 @@
 /* P Text inside of the three components */
 .visual-container > div p, .customer-container > div p {
     font-size: 12px;
-    text-align: center;
+    /* text-align: center; */
 }
 
 /* Customer Segment container: */
@@ -109,4 +110,9 @@
 .pains {
     bottom: 50px;
     left: 150px;
+}
+
+/* Customer Container Border Radius: */
+.customer-container {
+    border-radius: 50%;
 }
