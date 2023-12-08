@@ -80,8 +80,33 @@
     right: 100px;
 }
 
-/* Span Text inside of the three components */
-.visual-container > div p {
+/* P Text inside of the three components */
+.visual-container > div p, .customer-container > div p {
     font-size: 12px;
     text-align: center;
+}
+
+/* Customer Segment container: */
+/* Position Absolute */
+.gains,
+.customer-job,
+.pains {
+    position: absolute;
+}
+
+/* Gains Positioning */
+.gains {
+    top: 50px;
+    left: 150px;
+}
+
+/* Customer Job Positioning */
+.customer-job {
+    right: 50px;
+}
+
+/* Pains Positioning */
+.pains {
+    bottom: 50px;
+    left: 150px;
 }
