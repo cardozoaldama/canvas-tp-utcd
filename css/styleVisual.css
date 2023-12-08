@@ -27,6 +27,8 @@
     /* The size of our box would be 500x500 */
     height: 500px;
     justify-content: center;
+    /* Adding position relative */
+    position: relative;
     width: 500px;
 }
 
@@ -47,7 +49,33 @@
 }
 
 /* Icon in the center. */
-.visual-icon, .customer-icon {
+/* And icons inside of those containers. */
+.visual-container > div, .customer-container > div {
     background-color: #f1f1f1;
     font-size: 5em;
+}
+
+/* Visual Container: Icons */
+/* Products and Services */
+.products-services,
+.gains-creators,
+.pain-relievers {
+    position: absolute;
+}
+
+/* Products and Services */
+.products-services {
+    left: 50px;
+}
+
+/* Gains Creators */
+.gains-creators {
+    top: 50px;
+    right: 100px;
+}
+
+/* Pain Relievers */
+.pain-relievers {
+    bottom: 50px;
+    right: 100px;
 }
