@@ -79,3 +79,9 @@
     bottom: 50px;
     right: 100px;
 }
+
+/* Span Text inside of the three components */
+.visual-container > div p {
+    font-size: 12px;
+    text-align: center;
+}
