@@ -1,7 +1,7 @@
 # Value Proposition Canvas with User Persona
 
 ## User Persona
-- **Name**: Alex
+- **Name**: Alex Smith
 - **Age**: 25
 - **Role**: Enthusiastic Sven Co-Op Player
 
