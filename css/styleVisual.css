@@ -210,7 +210,7 @@ body {
     padding-top: 25px;
 }
 
-/* Padding for IMG, text, and subtitle, of the article: */
+/* Text, and subtitle, of the article: */
 .article-text, .article-title {
     padding: 10px 70px;
 }
@@ -222,4 +222,11 @@ body {
     border-radius: 100%;
     font-size: 2.6em;
     padding: 25px;
+}
+
+/* Styling the title article:  */
+.article-title {
+    background-color: #272727;
+    color: #fff;
+    width: 100%;
 }
