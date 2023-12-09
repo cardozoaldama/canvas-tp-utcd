@@ -12,3 +12,14 @@
     --color-text-nav: #f9f9f9;
     --color-text-banner: #fcfcfc;
 }
+
+/* Navigation Menu: */
+.nav {
+    align-items: center;
+    color: var(--color-text-nav);
+    background-color: var(--background-nav);
+    /* Using Flexbox layout. */
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+}
