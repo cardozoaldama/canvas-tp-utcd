@@ -209,6 +209,6 @@ body {
 }
 
 /* Padding for IMG, text, and subtitle, of the article: */
-.article-img, .article-text, .article-title {
+.article-text, .article-title {
     padding: 10px 70px;
 }
