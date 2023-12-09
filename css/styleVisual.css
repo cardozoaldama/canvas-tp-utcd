@@ -174,3 +174,8 @@ body {
     /* A little more. */
     font-size: 18px;
 }
+
+/* The left and right arrow. */
+.right-arrow, .left-arrow {
+    font-size: 6em;
+}
