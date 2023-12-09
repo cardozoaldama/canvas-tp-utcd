@@ -50,3 +50,16 @@ html {
     text-decoration: none;
     padding: 10px;
 }
+
+/* Navigation Links with Pseudo-classes: */
+/* Navigation Link with :hover */
+.nav ul li a:hover {
+    border-bottom: 2px solid var(--color-text-nav);
+}
+
+/* Navigation Link with :active */
+.nav ul li a:active {
+    background-color: var(--color-text-nav);
+    border-radius: 5px;
+    color: var(--background-nav);
+}
