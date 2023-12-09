@@ -189,13 +189,22 @@ body {
 
 /* The section content for both, Visual Proposition and Customer Job: */
 .section-content {
-    align-items: baseline;
+    align-items: stretch;
     display: flex;
     margin: 35px 0;
 }
 
 /* The article of each section: */
 .article-content {
-    flex-basis: 33%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
     font-size: 1.3em;
+    flex-basis: 33%;
+    justify-content: space-between;
+}
+
+/* Padding for IMG, text, and subtitle, of the article: */
+.article-img, .article-text, .article-title {
+    padding: 10px 70px;
 }
