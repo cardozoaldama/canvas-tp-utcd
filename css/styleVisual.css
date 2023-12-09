@@ -69,6 +69,12 @@ body {
     text-align: center;
 }
 
+/* Dropping out the font-size of Customer Icon: */
+.customer-icon {
+    /* First time to use !important... */
+    font-size: initial !important;
+}
+
 /* Visual Container: Icons */
 /* Products and Services */
 .products-services,
