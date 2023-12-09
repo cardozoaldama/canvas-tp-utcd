@@ -188,6 +188,11 @@ body {
     margin-top: 150px;
 }
 
+/* Main Content Title: */
+.main-content-title {
+    font-size: 3em;
+}
+
 /* The section content for both, Visual Proposition and Customer Job: */
 .section-content {
     align-items: stretch;
