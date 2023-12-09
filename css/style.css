@@ -23,3 +23,24 @@
     justify-content: space-between;
     padding: 30px 50px;
 }
+
+/* Navigation "Logo": */
+.nav-logo {
+    font-size: 2.2em;
+}
+
+/* Navigation Unordered List: */
+.nav ul li {
+    /* Inline Block for using width and height. */
+    display: inline-block;
+    margin-left: 10px;
+    list-style-type: none;
+}
+
+/* Navigation Links: */
+.nav ul li a {
+    color: var(--color-text-nav);
+    font-size: 1.3em;
+    font-weight: bold;
+    text-decoration: none;
+}
