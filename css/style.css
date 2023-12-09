@@ -5,3 +5,10 @@
     margin: 0;
     padding: 0;
 }
+
+/* Variables: */
+:root {
+    --background-nav: #333333;
+    --color-text-nav: #f9f9f9;
+    --color-text-banner: #fcfcfc;
+}
