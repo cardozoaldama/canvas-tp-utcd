@@ -63,3 +63,24 @@ html {
     border-radius: 5px;
     color: var(--background-nav);
 }
+
+/* Banner Background Image: */
+.banner {
+    background-image: url('../img/background-leanCanvas.jpg');
+}
+
+/* BANNER TEXT CONTAINER */
+.banner-container {
+    height: 450px;
+}
+
+/* Banner Text Container: */
+.banner-container {
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    flex-direction: column;
+    font-size: 4em;
+    font-weight: bold;
+    justify-content: center;
+}
