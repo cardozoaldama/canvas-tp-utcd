@@ -50,9 +50,15 @@ body {
     background-image: url('../img/customer-connector.png');
 }
 
-/* They probably have the same background-position: */
-.visual-container, .customer-container {
-    background-position: 55%;
+/* They do not have the same background-position. */
+/* Visual Container background-position: */
+.visual-container {
+    background-position: 35%;
+}
+
+/* Customer Job Container background-position: */
+.customer-container {
+    background-position: 75%;
 }
 
 /* Icon in the center. */
