@@ -179,3 +179,23 @@ body {
 .right-arrow, .left-arrow {
     font-size: 6em;
 }
+
+/* CONTENT EXPLANATORY: */
+/* The main content: */
+.main-content {
+    /* Text must be aligned to the center: */
+    text-align: center;
+}
+
+/* The section content for both, Visual Proposition and Customer Job: */
+.section-content {
+    align-items: baseline;
+    display: flex;
+    margin: 35px 0;
+}
+
+/* The article of each section: */
+.article-content {
+    flex-basis: 33%;
+    font-size: 1.3em;
+}
