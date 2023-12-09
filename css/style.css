@@ -13,6 +13,11 @@
     --color-text-banner: #fcfcfc;
 }
 
+/* HTML fonts and general. */
+html {
+    font-family: 'Roboto', 'Arial', sans-serif;
+}
+
 /* Navigation Menu: */
 .nav {
     align-items: center;
