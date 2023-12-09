@@ -116,3 +116,42 @@
 .customer-container {
     border-radius: 50%;
 }
+
+/* HEADER SECTION */
+.header {
+    background-color: rgb(26, 26, 26);
+    color: #fff;
+    text-align: justify;
+    padding: 50px;
+}
+
+/* Header Title */
+.header-title {
+    text-align: center;
+}
+
+/* The Header Section */
+.header-section {
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+
+/* The header section TOP */
+.header-section-top {
+    flex-basis: 33%;
+}
+
+/* The title of each header section: */
+.header-section__title {
+    border-bottom: 2px solid #f1f1f1;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+
+/* The explanatory text of each header section: */
+.header-section__text, .header-section-user ul li {
+    /* A little more. */
+    font-size: 18px;
+}
