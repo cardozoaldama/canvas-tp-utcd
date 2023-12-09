@@ -8,6 +8,11 @@
     padding: 0;
 }
 
+/* Body and giving font-family set to Roboto */
+body {
+    font-family: 'Roboto', 'Arial', sans-serif;
+}
+
 /* The container for both, visual proposition container and customer container. */
 .visual-customer-container {
     align-items: center;
