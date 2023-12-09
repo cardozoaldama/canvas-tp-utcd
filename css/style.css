@@ -1,1 +1,7 @@
 /* Style for index.html */
+/* Basic Reset */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
