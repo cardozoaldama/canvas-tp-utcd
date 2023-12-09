@@ -212,3 +212,12 @@ body {
 .article-text, .article-title {
     padding: 10px 70px;
 }
+
+/* Icon or IMG of the article: */
+.article-img i {
+    background-color: #fff;
+    border: none;
+    border-radius: 100%;
+    font-size: 2.6em;
+    padding: 25px;
+}
