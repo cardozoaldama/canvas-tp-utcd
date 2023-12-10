@@ -46,3 +46,18 @@ ul {
     margin-top: 10px;
     gap: 15px;
 }
+
+/* Lists and Links: */
+.menu ul li a {
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    font-size: 1.4em;
+    text-decoration: none;
+    padding: 15px 5px 15px 10px;
+    width: 85%;
+}
+
+.menu ul li a:hover {
+    background-color: var(--details-menu-color-alpha);
+    border-left: 10px solid var(--details-menu-color);
+}
