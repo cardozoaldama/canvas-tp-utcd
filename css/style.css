@@ -8,9 +8,9 @@
 
 /* Variables: */
 :root {
-    --background-nav: #333333;
-    --color-text-nav: #f9f9f9;
-    --color-text-banner: #fcfcfc;
+    --text-menu-color: #fff;
+    --details-menu-color: #272727;
+    --details-menu-color-alpha: rgba(39, 39, 39, 0.2);
 }
 
 /* HTML fonts and general. */
