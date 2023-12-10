@@ -57,7 +57,9 @@ ul {
     width: 85%;
 }
 
+/* The hover link: */
 .menu ul li a:hover {
     background-color: var(--details-menu-color-alpha);
     border-left: 10px solid var(--details-menu-color);
+    font-weight: bold;
 }
