@@ -17,3 +17,11 @@
 html {
     font-family: 'Roboto', 'Arial', sans-serif;
 }
+
+/* CONTAINER */
+.container {
+    align-items: center;
+    display: flex;
+    /* Height 100 of the viewport. Temporal. */
+    height: 100vh;
+}
