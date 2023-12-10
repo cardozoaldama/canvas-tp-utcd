@@ -5,8 +5,10 @@ section#video-background {
     align-items: center;
     display: flex;
     height: 100vh;
-    position: relative;
+    position: absolute;
+    opacity: .4;
     width: 100%;
+    z-index: -1;
 }
 
 /* The video element: */
